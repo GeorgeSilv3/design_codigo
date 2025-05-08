@@ -23,7 +23,7 @@ class Calculator4:
         return input_data
     
     def __arithmetic_mean(self, numbers: List[float]) -> float:
-        result = self.__driver_hundler.mean(numbers=numbers)
+        result = float(self.__driver_hundler.mean(numbers=numbers))
         return result
 
     def __formated_response(self, mean: float) -> Dict:
